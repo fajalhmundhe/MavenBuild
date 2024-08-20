@@ -31,4 +31,4 @@ jobs:
         port: ${{ secrets.LAB_PORT }}
         connect_timeout: 10s 
         first_ssh: |
-          sudo curl -I -u admin:1100a40ab236c0883144144583300d58ed http://localhost:8080/job/P1_InsuredAssurance_CICD/build?token=Fuzzy_token
+          sudo curl -I -u admin:1100a40ab236c0883144144583300d58ed http://localhost:8080/job/Proj1_CICD_Workflow/build?token=Fuzzy_token
